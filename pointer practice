@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main(){
+  int x=10, y=30, z=40;
+  int *iptr;
+  iptr=&y;
+  *iptr=100;
+  iptr=&z;
+  *iptr=300000;
+
+  printf("x=%d,y=%d,z=%d",x,y,z);
+
+  return 0;
+}
+---------------------------
+result : x=10,y=100,z=300000
+  
