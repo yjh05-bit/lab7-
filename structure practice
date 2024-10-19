@@ -1,0 +1,14 @@
+struct Student{
+    char name[50];
+    int ID;
+    float grade;
+};
+
+int main(){
+  struct Student st={"yoojaehawn", 202434797, 4.2};
+  printf("이름:%s", st.name);
+}
+
+---------------
+result : 이름:yoojaehawn
+  
